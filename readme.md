@@ -17,7 +17,7 @@ Esta ferramenta utiliza o `parsel` para extrair as informações, instale via `p
 ## Utilização
 Apenas o arquivo [`rab.py`](src/rab.py) é necessário
 ```py
-from anac import Marca, Aeronave
+from rab import Marca, Aeronave
 
 # Guarda uma matricula, a classe Marca valida a matrícula
 planador_marca = Marca("ptppc")
